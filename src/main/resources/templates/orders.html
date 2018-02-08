@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <title>创建订单</title>
+</head>
+<body>
+    <form action="/payOrders" method="post">
+        请选择需要购买的课程：<br/>
+        <input type="radio" name="amount" value="100"/>C语言 ¥100.00<br/>
+        <input type="radio" name="amount" value="200"/>C++ ¥200.00<br/>
+        <input type="radio" name="amount" value="100"/>Java-SE ¥100.00<br/>
+        <input type="radio" name="amount" value="200"/>Java-ME ¥200.00<br/>
+        <input type="radio" name="amount" value="500"/>Java-EE ¥500.00<br/>
+        <button type="submit">提交订单</button>
+    </form>
+</body>
+</html>
